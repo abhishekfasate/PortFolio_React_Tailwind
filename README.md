@@ -30,11 +30,10 @@ Include a link to the live demo of your portfolio.
 
 - React.js
 - Tailwind CSS
-- (Add any other relevant technologies)
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   https://github.com/abhishekfasate/PortFolio_React_Tailwind.git
