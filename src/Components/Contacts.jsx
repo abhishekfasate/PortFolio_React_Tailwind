@@ -6,7 +6,7 @@ import { PiAddressBookDuotone } from "react-icons/pi"
 
 function Contacts() {
   return (
-    <div className='w-full h-[650px] bg-black text-white'>
+    <div id='contact' className='w-full h-[650px] bg-black text-white'>
       <span className='flex justify-center m-5 text-2xl text-[#00df9a] font-extrabold'>CONTACT US</span>
       <div className='grid grid-cols-1 lg:grid-cols-2 w-full h-[400px] gap-8'>
         <div className='flex justify-center mt-[100px]'>
