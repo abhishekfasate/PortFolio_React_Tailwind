@@ -30,6 +30,8 @@ Include a link to the live demo of your portfolio.
 
 - React.js
 - Tailwind CSS
+- react-router-dom
+- react-scroll
 
 ## Installation
 
