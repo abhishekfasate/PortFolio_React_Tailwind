@@ -3,34 +3,32 @@ import SkillBar from './SkillBar';
 
 function Skills() {
   return (
-    <div className="w-full bg-white">
-      <div className="max-w-[1240px] mx-auto grid grid-cols-1 gap-8">
-        <h1 className="text-3xl font-extrabold text-center mt-10 col-span-2">
-          Skills
-        </h1>
-        <p className="text-center my-2 font-semibold py-2 col-span-2">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae id
-          nobis doloremque quisquam maxime ipsam
+    <div id='skills' className="container mx-auto p-8">
+      <section className="max-w-[800px] mx-auto mb-12">
+        <h1 className="text-4xl text-white font-extrabold text-center mb-4">Professional Skills</h1>
+        <p className="text-center text-white font-mono">
+          As a skilled developer, I bring a diverse set of technical abilities to the table. My proficiency spans across various technologies, enabling me to deliver high-quality solutions. Below are some key areas of my expertise:
         </p>
-        <div className='text-center grid grid-cols-1 md:grid-cols-2 gap-8'>
-          <SkillBar skill="HTML and CSS" percent={50} />
-          <SkillBar skill="JavaScript" percent={70} />
-          <SkillBar skill="React" percent={80} />
-          <SkillBar skill="Python" percent={75} />
-          <SkillBar skill="Cloud Services" percent={15} />
-          <SkillBar skill="Automation Tooling" percent={90} />
-        </div>
-      </div>
-      <div className='text-center py-[20px] border border-red-50'>
-        <p className=' text-sm text-center font-semibold'>
-          My expertise extends to front-end development with a 
-          good command of React, where I've designed and implemented interactive user interfaces. <br/>
-          I have a solid foundation in HTML and CSS, employing responsive design techniques to enhance 
-          user experience across various devices.
-          Backed by Python proficiency, I've developed server-side logic using frameworks like Flask.
-          I've successfully contributed to projects utilizing version control systems like Git, 
-          and I bring a problem-solving mindset to every development challenge.</p>
-      </div>
+      </section>
+
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-8 text-white">
+        <SkillBar skill="HTML and CSS" percent={80} />
+        <SkillBar skill="JavaScript" percent={90} />
+        <SkillBar skill="React" percent={85} />
+        <SkillBar skill="Python" percent={80} />
+        <SkillBar skill="Cloud Services" percent={60} />
+        <SkillBar skill="Automation Tooling" percent={95} />
+      </section>
+
+      <section className="max-w-[800px] mx-auto mt-12 text-white font-mono">
+        <h2 className="text-2xl font-bold mb-4">Experience and Expertise</h2>
+        <p className="text-white-700 font-mono">
+          With a strong foundation in front-end development, I specialize in building interactive and user-friendly interfaces using React. Proficient in HTML and CSS, I leverage responsive design techniques to ensure a seamless user experience across diverse devices.
+        </p>
+        <p className="text-white-700 mt-4 font-mono">
+          My back-end proficiency includes server-side logic development using Python frameworks like Flask. I actively contribute to projects using version control systems such as Git, ensuring collaborative and efficient development processes. My problem-solving mindset allows me to tackle complex challenges with creativity and precision.
+        </p>
+      </section>
     </div>
   );
 }
